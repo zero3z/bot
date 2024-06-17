@@ -29,17 +29,17 @@ module.exports = {
         {
           name: `Người Dùng`,
           value:
-          `
+          
           - Thành Viên: ${members.filter(m => !m.user.bot).size}
           - Bot: ${members.filter(m => m.user.bot).size}
           
           Tổng Cộng: ${message.guild.memberCount}
-          `
+          
         },
         {
           name: "Kênh",
           value:
-            `
+            
           - Text: ${message.guild.channels.cache.filter(c => c.type === 0).size}
           - Voice: ${message.guild.channels.cache.filter(c => c.type === 2).size}
           - Threads: ${message.guild.channels.cache.filter(c => c.type === 10 && 11 && 12).size}
@@ -47,27 +47,27 @@ module.exports = {
           - Stages: ${message.guild.channels.cache.filter(c => c.type === 13).size}
           
           Tổng Cộng: ${message.guild.channels.cache.size}
-          `
+          
         },
         {
           name: "Emoji & Sticker",
           value:
-            `
+            
           - Emoji Thường: ${message.guild.emojis.cache.filter(e => !e.animated).size}
           - Emoji Động: ${message.guild.emojis.cache.filter(e => e.animated).size}
           - Sticker: ${message.guild.stickers.cache.size}
 
           Tổng Cộng: ${message.guild.emojis.cache.size + message.guild.stickers.cache.size}  
-          `
+          
         },
         {
-          name: "Thống Kê Nitro",
+          name: "Nitro",
           value:
-            `
+            
         - Cấp: ${message.guild.premiumTier}
         - Số Lượng Boost: ${message.guild.premiumSubscriptionCount}
         - Người Boost: ${members.filter(m => m.premiumSince).size}
-        `
+        
         }
       )
       .setFooter({ text: `Được yêu cầu bởi ${message.author.username}`, iconURL: message.author.displayAvatarURL({ dynamic: true, size: 4096 }) })
