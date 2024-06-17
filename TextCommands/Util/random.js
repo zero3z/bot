@@ -12,7 +12,7 @@ module.exports = {
     }
     const random = parseInt(args[0])
     let rd = Math.floor(Math.random() * random) + 1;
-    await message.reply(`<a:foxiggle:1137472362342781000> **Số random của ${message.member} là:** __**${rd}**__ `);
+    await message.reply(`**Số random của ${message.member} là:** __**${rd}**__ `);
 
 
   }
