@@ -40,7 +40,7 @@ module.exports = {
       .setColor(client.c.fvr)
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true, size: 512 }))
       .addFields(categories)
-      .setFooter({ text: "Cảm ơn vì đã sử dụng bot", iconURL: `https://media.discordapp.net/attachments/1236580619283075103/1252307927876767794/1246437179647856671.gif?ex=6671be24&is=66706ca4&hm=995f0e349b24ecf245868c354db712842a734b4a1432b32c02ccc6a68ed6305f&=&width=192&height=177` })
+      .setFooter({ text: "Bé Bún Cute", iconURL: `https://media.discordapp.net/attachments/1236580619283075103/1252307927876767794/1246437179647856671.gif?ex=6671be24&is=66706ca4&hm=995f0e349b24ecf245868c354db712842a734b4a1432b32c02ccc6a68ed6305f&=&width=192&height=177` })
       .setTimestamp();
       await message.reply({ embeds: [embed] })
     }
