@@ -4,7 +4,7 @@ module.exports = {
   aliases: ["rd"],
   cooldown: 0,
   description: "Quay ngẫu nhiên số",
-  usage: "{prefix}random <số>",
+  usage: "prefix + random <số>",
   async execute(client, message, args) {
     if (!args[0]) args[0] = "10";
     if (args[0] <= 0 || isNaN(args[0])) {
