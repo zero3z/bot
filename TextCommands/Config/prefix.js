@@ -7,7 +7,7 @@ module.exports = {
   aliases: ["pf"],
   cooldown: 5,
   description: "Kiểm tra hoặc thay đổi prefix của bot",
-  usage: "{prefix}prefix <prefix mới>",
+  usage: "prefix + prefix <prefix mới>",
   uperms: ["Administrator"],
   async execute(client, message, args) {
     let data = await prefixSchema.findOne({
