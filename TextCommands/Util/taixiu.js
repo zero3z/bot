@@ -59,6 +59,6 @@ module.exports = {
     }
 
     let chanle = diem % 2 === 0 ? "Chẵn" : "Lẻ";
-    msg2.edit(`<a:money:1246808971499540490> **${diem}・${taixiu}・${chanle}**  <a:money:1246808971499540490>`);
+    msg2.edit(`<a:money:1246808971499540490> **${diem}<a:cham:1252490984642576495>${taixiu}<a:cham:1252490984642576495>${chanle}**  <a:money:1246808971499540490>`);
   }
 };
