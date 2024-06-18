@@ -6,7 +6,7 @@ module.exports = {
   aliases: ["dc", "disconnect"],
   cooldown: 0,
   description: "Cho bot rời khỏi kênh voice của bạn",
-  usage: "{prefix}leave",
+  usage: "prefix + leave",
   bperms: ["Connect"],
   async execute(client, message, args) {
    const channel = message.member.voice.channel
