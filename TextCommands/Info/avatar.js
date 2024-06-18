@@ -12,7 +12,7 @@ module.exports = {
   aliases: ["av", "ava"],
   cooldown: 0,
   description: "Xem ảnh đại diện của bạn hoặc người khác.",
-  usage: "{prefix}avatar <mention | id | tên>",
+  usage: "prefix + avatar <mention | id | tên>",
   bperms: ["EmbedLinks", "AttachFiles"],
   async execute(client, message, args) {
     let member = undefined;
