@@ -6,7 +6,7 @@ module.exports = {
   aliases: ["pong"],
   cooldown: 2,
   description: "Xem độ trễ của bot",
-  usage: "{prefix}ping",
+  usage: "prefix + ping",
   async execute(client, message, args) {
     const emoji = {
       Tốt : "<:green:1252306549632798730>",
