@@ -6,7 +6,7 @@ module.exports = {
   aliases: [],
   cooldown: 0,
   description: "Cho bot tham gia vào kênh voice của bạn",
-  usage: "{prefix}join",
+  usage: "prefix + join",
   bperms: ["Connect"],
   async execute(client, message, args) {
    const channel = message.member.voice.channel
