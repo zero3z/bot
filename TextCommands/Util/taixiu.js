@@ -14,7 +14,7 @@ module.exports = {
   aliases: ["tx", "lactx"],
   cooldown: 0,
   description: "Lắc tài xỉu",
-  usage: "{prefix}taixiu",
+  usage: "prefix + taixiu",
   async execute(client, message, args) {
     if (!message.member.roles.cache.find(r => r.name === "Lắc Tài Xỉu")) {
       return client.deleteMsg(message, `${client.e.error} Bạn phải có role \`Lắc Tài Xỉu\` để có thể sử dụng lệnh này!`, 8000, "reply");
