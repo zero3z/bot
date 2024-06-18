@@ -56,6 +56,6 @@ module.exports = {
     msg.edit(`${r1} ${r2} ${bc}`);
     await client.sleep(1500);
     msg.edit(`${r1} ${r2} ${r3}`);
-    msg2.edit(`<a:money:1246808971499540490> **${name[emojis.indexOf(r1)]}・${name[emojis.indexOf(r2)]}・${name[emojis.indexOf(r3)]}** <a:money:1246808971499540490>`);
+    msg2.edit(`<a:money:1246808971499540490> **${name[emojis.indexOf(r1)]}<a:cham:1252490984642576495>${name[emojis.indexOf(r2)]}<a:cham:1252490984642576495>${name[emojis.indexOf(r3)]}** <a:money:1246808971499540490>`);
   }
 };
