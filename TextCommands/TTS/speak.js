@@ -8,7 +8,7 @@ module.exports = {
   aliases: ["s", "talk"],
   cooldown: 0,
   description: "Cho bot nói trong kênh voice của bạn",
-  usage: "{prefix}speak <tin nhắn>",
+  usage: "prefix + speak <tin nhắn>",
   bperms: ["Connect", "Speak"],
   async execute(client, message, args) {
     const channel = message.member.voice.channel;
