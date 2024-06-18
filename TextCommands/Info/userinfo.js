@@ -35,7 +35,7 @@ module.exports = {
   aliases: ["whois", "ws", "ui"],
   cooldown: 5,
   description: "Kiểm tra thông tin của bạn hoặc người khác",
-  usage: "{prefix}userinfo <mention | id | tên>",
+  usage: "Prefix + userinfo <mention | id | tên>",
   async execute(client, message, args) {
     let member = undefined;
     if (args.length > 0) {
