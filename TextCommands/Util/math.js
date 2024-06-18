@@ -6,7 +6,7 @@ module.exports = {
   aliases: [],
   cooldown: 10,
   description: "Tính toán giúp bạn",
-  usage: "{prefix}math <phép tính>",
+  usage: "prefix + math <phép tính>",
   async execute(client, message, args) {
     const math = args.join(" ");
     if (!math) return client.deleteMsg(message, `${client.e.error} Vui lòng nhập phép tính hợp lệ`, 5000, "reply")
