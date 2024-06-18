@@ -18,7 +18,7 @@
     "noWinner": "Giveaway bị hủy bỏ, không có người tham gia hợp lệ.",
     "hostedBy": "<a:traitim:1252276254108024944>・Làm bởi: {this.hostedBy}",
     "winners": "<a:traitim:1252276254108024944>・Người chiến thắng:",
-    "endedAt": "Sẽ kết thúc sau",
+    "endedAt": "Đã kết thúc",
     "paused": "⚠️ **This giveaway is paused!**",
     "infiniteDurationText": "`NEVER`",
     "congrat": "Người chiến thắng mới : {winners}! <a:give:1252282591952896124> Xin chúc mừng, phần thưởng của bạn là**{this.prize}**!",
