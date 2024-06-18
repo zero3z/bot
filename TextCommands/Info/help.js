@@ -7,7 +7,7 @@ module.exports = {
   aliases: [],
   cooldown: 0,
   description: "Xem tất cả những lệnh khả dụng của bot",
-  usage: "{prefix}help <tên >",
+  usage: "prefix + help <tên >",
   bperms: ["EmbedLinks", "AttachFiles"],
   async execute(client, message, args, prefix) {
     const ignoredDir = [
