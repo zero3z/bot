@@ -6,7 +6,7 @@ module.exports = {
   aliases: ["esn"],
   cooldown: 0,
   description: "Kiểm tra tin nhắn bị chỉnh sửa trong kênh",
-  usage: "{prefix}esnipe <số lượng>",
+  usage: "prefix + esnipe <số lượng>",
   bperms: ["ReadMessageHistory"],
   uperms: ["ReadMessageHistory"],
   async execute(client, message, args) {
