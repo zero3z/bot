@@ -4,7 +4,7 @@ module.exports = {
   aliases: ["chon"],
   cooldown: 0,
   description: "Hãy để bot lựa chọn giúp bạn",
-  usage: "{prefix}pick <lựa chọn 1>, <lựa chọn 2>, <lựa chọn n>",
+  usage: "prefix + pick <lựa chọn 1>, <lựa chọn 2>, <lựa chọn n>",
   async execute(client, message, args) {
    if (!args[0] || !args[1]) return message.channel.send(`${client.e.error} Sai cú pháp!`);
     const pickWordlist = args.join(' ').split(',');
