@@ -6,7 +6,7 @@ module.exports = {
   aliases: ["sn"],
   cooldown: 0,
   description: "Kiểm tra tin nhắn bị xóa trong kênh",
-  usage: "{prefix}snipe <số lượng>",
+  usage: "prefix + snipe <số lượng>",
   bperms: ["ReadMessageHistory"],
   uperms: ["ReadMessageHistory"],
   async execute(client, message, args) {
