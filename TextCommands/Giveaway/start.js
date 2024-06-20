@@ -33,6 +33,7 @@ module.exports = {
           duration: ms(giveawayDuration),
           winnerCount: parseInt(giveawayNumberWinners),
           hostedBy: message.author,
+          thumnail: message.author.avatarURL(),
           messages: client.gacf.messages,
         })
       message.delete().catch()
