@@ -12,7 +12,7 @@ module.exports = {
     }
     const random = parseInt(args[0])
     let rd = Math.floor(Math.random() * random) + 1;
-    await message.reply(`**Số random của ${message.member} là:** __**${rd}**__ `);
+    await message.reply(`**<a:tick:1252300880364175370> Số random của ${message.member} là:** __**${rd}**__ `);
 
 
   }
