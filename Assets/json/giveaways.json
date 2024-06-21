@@ -5,8 +5,8 @@
     "reaction": "<a:hopqua:1246802611370328186>"
   },
   "messages": {
-    "giveaway": "<a:canh:1252274910873653410> **GIVEAWAY ĐÃ BẮT ĐẦU** <a:canh1:1252274973385691259>",
-    "giveawayEnded": "<a:canh:1252274910873653410> **GIVEAWAY ĐÃ KẾT THÚC** <a:canh1:1252274973385691259>",
+    "giveaway": "<a:duoibentrai:1253673586657464380> **GIVEAWAY ĐÃ BẮT ĐẦU** <a:duoibenphai:1253673518395162706>",
+    "giveawayEnded": "<a:duoibentrai:1253673586657464380> **GIVEAWAY ĐÃ KẾT THÚC** <a:duoibenphai:1253673518395162706>",
     "title": "{this.prize}",
     "drawing": "<a:traitim:1252276254108024944>・Kết thúc trong: {timestamp}",
     "inviteToParticipate": "Bấm <a:hopqua:1246802611370328186> để tham gia giveaway!",
