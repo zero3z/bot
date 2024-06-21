@@ -62,11 +62,11 @@ module.exports = {
 
       const now = Date.now();
       const timestamps = client.cooldowns.get(command.name);
-      const cooldownAmount = (command.cooldown || 1) * 1000;
+      const cooldownAmount = (command.cooldown || 1) * 1;
       if (timestamps.has(message.author.id)) {
         const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
         if (now < expirationTime) {
-          const timeLeft = Math.floor(expirationTime / 1000);
+          const timeLeft = Math.floor(expirationTime / 1);
           return client.deleteMsg(message, `${client.e.error} Vui lòng chờ <t:${timeLeft}:R> để sử dụng lại lệnh này!`, 5000, "reply");
         }
       }
