@@ -5,13 +5,13 @@
     "reaction": "<a:hopqua:1246802611370328186>"
   },
   "messages": {
-    "giveaway": "<a:canh:1252274910873653410> **GIVEAWAY** <a:canh1:1252274973385691259>",
-    "giveawayEnded": "<a:canh:1252274910873653410> **GIVEAWAY ENDED** <a:canh1:1252274973385691259>",
+    "giveaway": "<a:canh:1252274910873653410> **GIVEAWAY ĐÃ BẮT ĐẦU** <a:canh1:1252274973385691259>",
+    "giveawayEnded": "<a:canh:1252274910873653410> **GIVEAWAY ĐÃ KẾT THÚC** <a:canh1:1252274973385691259>",
     "title": "{this.prize}",
     "drawing": "<a:traitim:1252276254108024944>・Kết thúc trong: {timestamp}",
     "inviteToParticipate": "Bấm <a:hopqua:1246802611370328186> để tham gia giveaway!",
     "winMessage": {
-      "content": "<a:give:1252282591952896124> Chúc mừng {winners}! đã trúng **{this.prize}**",
+      "content": "<:qua:1253669412641181696> Chúc mừng {winners}! đã trúng **{this.prize}**",
       "replyToGiveaway": true
     },
     "embedFooter": "{this.winnerCount} giải",
@@ -21,7 +21,7 @@
     "endedAt": "Đã kết thúc",
     "paused": "⚠️ **This giveaway is paused!**",
     "infiniteDurationText": "`NEVER`",
-    "congrat": "Người chiến thắng mới : {winners}! <a:give:1252282591952896124> Xin chúc mừng, phần thưởng của bạn là**{this.prize}**!",
+    "congrat": "Người chiến thắng mới : {winners}! <:qua:1253669412641181696> Xin chúc mừng, phần thưởng của bạn là**{this.prize}**!",
     "error": "Reroll bị huỷ bỏ, không có người tham gia hợp lệ."
   }
 }
