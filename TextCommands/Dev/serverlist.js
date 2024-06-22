@@ -20,7 +20,7 @@ module.exports = {
     // Hàm tạo nội dung cho embed
     const createDescription = (guilds, page) => {
       return (
-        `Tổng số server - ${guilds.length}\n\n` +
+        `**Tổng số server** - ${guilds.length}\n\n` +
         guilds
           .sort((a, b) => b.memberCount - a.memberCount)
           .slice(page * pageSize, (page + 1) * pageSize)
