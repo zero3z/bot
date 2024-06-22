@@ -1,13 +1,37 @@
+const { EmbedBuilder } = require("discord.js");
+
 module.exports = {
   name: "donate",
-  group: "dev",
-  aliases: ["d", "dnt"],
-  cooldown: 0,
-  description: "Hiển thị Số Tài Khoản để donate",
-  usage: "{prefix} donate",
-async execute(client, message, args) {
-  if (message.content === '{prefix}donate')
-  awai.message.reply('**­               BANK INFO ­ **\n\n**<:mbbank:1132201851945766913> MBBANK  : 89922999999\n<:momo:1132202298689454101> MOMO  : 0384542554\n\n*__Chủ Tài Khoản__* : TRAN LE MINH KHOI**')
-},
-};
+  group: "Dev",
+  aliases: ["dnt"],
+  cooldown: 2,
+  description: "Xem Info donate",
+  usage: "prefix + donate",
+  async execute(client, message, args) {
+    const emoji = {
+      Tốt : "<:green:1252306549632798730>",
+      Ổn : "<:yellow:1252306597401722890>",
+      Tệ : "<:red:1252306491138900111>"
+    }
 
+    const embed = new EmbedBuilder()
+      .setAuthor({ name: message.author.username, iconURL: message.author.displayAvatarURL({ dynamic: true }) })
+      .setColor(client.c.fvr)
+      .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
+      .addFields(
+        {
+          name: "<:mbbank:1132201851945766913> TRAN LE MINH KHOI",
+          value: `89922999999`,
+          inline: true
+        },
+        {
+          name: "<:momo:1132202298689454101> TRAN LE MINH KHOI",
+          value: `0384542554`,
+          inline: true
+        },
+      )
+      .setTimestamp();
+
+    await message.channel.send({ content: "**INFO DONATE", embeds: [embed] })
+  }
+}
