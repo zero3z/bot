@@ -7,7 +7,7 @@ module.exports = {
     client.user.setPresence({
     activities: [
       {
-        name: `Bé Bún`,
+        name: `Muffinie`,
         type: ActivityType.Streaming,
         url: "https://www.twitch.tv/lookinsomething"
       }
