@@ -25,8 +25,8 @@ module.exports = {
           inline: true
         },
         {
-          name: "<:momo:1132202298689454101> __**TRAN LE MINH KHOI**__",
-          value: `**0384542554**`,
+          name: "<:momo:1132202298689454101> __**NGUYỄN HOÀNG THANH TRÚC**__",
+          value: `**0585683400**`,
           inline: true
         },
       )
