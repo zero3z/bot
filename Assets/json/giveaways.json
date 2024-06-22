@@ -5,8 +5,8 @@
     "reaction": "<a:hopqua:1246802611370328186>"
   },
   "messages": {
-    "giveaway": "<a:tcb_decor_saolaplanh:1253701810087002155> <a:tcb_decor_canhhong1:1253701862675320842> **G I V E A W A Y S BẮT ĐẦU** <a:tcb_decor_canhhong2:1253701908934168616> <a:tcb_decor_saolaplanh:1253701810087002155>",
-    "giveawayEnded": "<a:tcb_decor_saolaplanh:1253701810087002155> <a:tcb_decor_canhhong1:1253701862675320842> **G I V E A W A Y S KẾT THÚC** <a:tcb_decor_canhhong2:1253701908934168616> <a:tcb_decor_saolaplanh:1253701810087002155>",
+    "giveaway": "<a:tcb_decor_saolaplanh:1253701810087002155> <a:tcb_decor_canhhong1:1253701862675320842> **GIVEAWAYS** <a:tcb_decor_canhhong2:1253701908934168616> <a:tcb_decor_saolaplanh:1253701810087002155>",
+    "giveawayEnded": "<a:tcb_decor_saolaplanh:1253701810087002155> <a:tcb_decor_canhhong1:1253701862675320842> **GIVEAWAYS END** <a:tcb_decor_canhhong2:1253701908934168616> <a:tcb_decor_saolaplanh:1253701810087002155>",
     "title": "{this.prize}",
     "drawing": "<a:traitim:1252276254108024944>・Kết thúc trong: {timestamp}",
     "inviteToParticipate": "Bấm <a:hopqua:1246802611370328186> để tham gia giveaway!",
