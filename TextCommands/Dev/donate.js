@@ -20,18 +20,18 @@ module.exports = {
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
       .addFields(
         {
-          name: "<:mbbank:1132201851945766913> TRAN LE MINH KHOI",
-          value: `89922999999`,
+          name: "<:mbbank:1132201851945766913> __**TRAN LE MINH KHOI**__",
+          value: `**89922999999**`,
           inline: true
         },
         {
-          name: "<:momo:1132202298689454101> TRAN LE MINH KHOI",
-          value: `0384542554`,
+          name: "<:momo:1132202298689454101> __**TRAN LE MINH KHOI**__",
+          value: `**0384542554**`,
           inline: true
         },
       )
       .setTimestamp();
 
-    await message.channel.send({ content: "**INFO DONATE", embeds: [embed] })
+    await message.channel.send({ content: "**INFO DONATE**", embeds: [embed] })
   }
 }
